@@ -1,0 +1,822 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gabriela&family=Libre+Franklin:wght@500&family=Lobster&family=Open+Sans:wght@500&family=Pacifico&family=Roboto:wght@300;500&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Varela Round";
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #b668d2, #990ce4);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+body{
+    margin: 0px;
+    
+}
+
+.navbar-logo{
+   margin-left: 40%;
+}
+
+.nav{
+    background-color: rgb(242, 143, 232);
+}
+
+#nav-link1{
+    color: rgba(255, 255, 255);
+    margin: 4px;
+    font-size: 16px;
+}
+
+#nav-link1:hover{
+    color: rgba(6, 5, 0, 0.829);
+    background-color: rgb(188, 0, 150);
+    border-radius: 30px;
+}
+#nav-link2:hover{
+    color: rgba(6, 5, 0, 0.829);
+    background-color: rgb(188, 0, 150);
+    border-radius: 30px;
+}
+
+#nav-link3:hover{
+    color: rgba(6, 5, 0, 0.829);
+    background-color: rgb(188, 0, 150);
+    border-radius: 30px;
+}
+
+
+#nav-link4:hover{
+    color: rgba(6, 5, 0, 0.829);
+    background-color: rgb(188, 0, 150);
+    border-radius: 30px;
+}
+
+#nav-link5:hover{
+    color: rgba(6, 5, 0, 0.829);
+    background-color: rgb(188, 0, 150);
+    border-radius: 30px;
+}
+
+
+
+#nav-link2{
+    color: rgba(255, 255, 255);
+    margin: 4px;
+    font-size: 15px;
+}
+
+#nav-link3{
+    color: rgba(255, 255, 255);
+    margin: 4px;
+    font-size: 15px;
+}
+
+#nav-link4{
+    color: rgba(255, 255, 255);
+    margin: 4px;
+    font-size: 15px;
+}
+
+#nav-link5{
+    color: rgba(255, 255, 255);
+    margin: 4px;
+    font-size: 15px;
+}
+
+
+
+i{
+    color: rgba(255, 255, 255);
+    margin: 4px;
+    font-size: 15px;
+}
+
+.bg-image{
+   
+    min-height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-color: #eee2ef;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image h2{
+    font-weight: bolder;
+    color: #e9b5e6;
+    font-size: 3.5rem;
+    text-align: center;
+    border-bottom:solid #c25ef7 3px;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+   
+}
+
+.bg-image p{
+    font-weight: bolder;
+    color:#e9b5e6 ;
+    font-size: 3rem;
+    text-align: center;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+
+}
+
+.Menu-1{
+
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(225, 182, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e7b0f0;
+    padding: 20px;
+}
+
+.Menu-2{
+    min-height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(238, 209, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 3px solid rgb(241, 178, 250);
+}
+
+.Menu-2 h1{
+    font-size: 1.75rem;
+    text-align: center;
+
+}
+
+.options-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.options-1 button{
+    margin: 10px;
+    width: 7rem;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #0f0e0e;
+    border-width: 0px;
+    font-size: 0.65rem;
+}
+
+.options-1 button:hover{
+    background-color: rgb(211, 122, 225);
+    color: #fff;
+}
+
+
+
+.collection-container{
+    padding: 25px;
+    flex-wrap: wrap;
+    
+}
+
+.collection-container h1{
+    color:rgb(0, 0, 0);
+    font-size: 1.75rem;
+margin-left: 45%;
+    
+}
+
+.collection-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+ 
+}
+
+
+.collection-card{
+    height: 20em;
+    width: 18em; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 2.5rem;
+
+}
+
+.collection-image{
+    height: 65%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+.collection-card button{
+    height: 5em;
+    width: 100%; 
+    background-color: rgba(250, 250, 250, 0.911);
+    border-width: 2px;
+    border-color: #de62e9;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.collection-card button:hover{
+    border-color: rgb(218, 32, 193) rgb(193, 32, 218);
+    color: rgb(240, 195, 242);
+}
+
+.heading-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-collection h1{
+    font-size: 10px;
+
+}
+
+.heading-collection p{
+    font-size: 10px;
+
+}
+.hr{
+    height: 1px;
+    font-weight: bold;
+    background-color: #000;
+
+}
+.desc-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 5%;
+
+}
+.desc-collection p{
+    font-size: 12px;
+    margin-left: 20%; 
+
+}
+
+.about-desc-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 208, 245);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.about-desc-container h1{
+    text-align: center;
+}
+
+.about-desc-container p{
+    padding: 20px;
+}
+
+.hr-line{
+    background-color:rgb(0, 0, 0);
+    height: 1px;
+    width: 10%;
+}
+
+.tip-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.tip-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(244, 196, 255);
+    height: 60%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+
+.tip-description h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tip-description p{
+    font-size: 12px;
+}
+
+.tip-image{
+    background-image: url("https://proactiveskinproducts.com/wp-content/uploads/2022/02/sk1.jpg");
+    height: 80%;
+    width: 50%;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: -50%;
+}
+
+
+.tip-image2{
+    display: none;
+}
+
+
+.information-container{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.information-container h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.information-container p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column; 
+}
+.hrline{
+    background-color: #000;
+    width: 10%;
+}
+
+.read-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.read-info h4{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.info-img{
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 15px;
+}
+
+.info-description{
+    margin: 10px;
+    padding: 10px;
+}
+
+.info-description h1{
+   font-size: 18px;
+   font-weight: 600;
+   text-align: left;
+}
+.info-description p{
+    font-size: 14px;
+    text-align: left;
+ }
+
+ .info-description button{
+    background-color: rgb(246, 196, 255);
+    padding: 10px;
+    color: black;
+    font-size: 13px;
+    border-radius: 10px;
+    border-width: 0px;
+    height: auto;
+ }
+
+.info-img2{
+    display: none;
+}
+
+
+.recommendation-container{
+    min-height: 100vh;
+    background-color: rgb(246, 214, 254);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center; 
+    align-items: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.image-container h4{
+    font-size: 5rem;
+}
+
+.image{
+    height: 16em;
+    width: 14em;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+.bottom-container{
+    background-color: rgb(229, 157, 239);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.bottom-items{
+    text-align: center;
+    margin: 2rem;
+}
+.bottom-items h1{
+    font-size: 0.75rem;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.bottom-items p{
+    font-size: 0.65rem;
+    color: grey;
+    font-weight: 400;
+}
+
+
+.bottom-items p:hover{
+    font-size: 0.65rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+.social-media-container{
+    background-color: rgb(77, 30, 83);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.social-media-container i{
+    color: rgba(152, 152, 152, 0.488);
+    font-size: 1rem;
+}
+
+
+.social-media-container i:hover{
+    color: rgb(255, 252, 252);
+}
+
+
+
+footer{
+    background-color: rgb(223, 168, 241);
+    color: rgb(136, 136, 136);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+footer p{
+    font-size: 0.65rem;
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+  .nav-link{
+    text-align: center;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .about-image{
+        display: none;
+    }
+    .info-img{
+        display: none;
+    }
+
+    .info-img2{
+        display: inline;
+        height: 70%;
+        width: 100%;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .about-container{
+        padding: 0px;
+    }
+
+    .about-container{
+        padding: 0px;
+        width: 100vw;
+    }
+
+
+    .tip-description{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tip-image{
+        background-image: url("https://proactiveskinproducts.com/wp-content/uploads/2022/02/sk1.jpg");
+        height: 80%;
+        width: 50%;
+        background-size: cover;
+        border-radius: 20px;
+        display: none;
+    }
+
+    .tip-image2{
+        background-image: url("https://proactiveskinproducts.com/wp-content/uploads/2022/02/sk1.jpg");
+        height: 40%;
+        width: 75%;
+        background-size: cover;
+        border-radius: 200px;
+        align-self: center;
+        display: inline;
+    }
+
+
+    .Menu-1{
+        background-color: bisque;
+    }
+
+
+
+    .Menu-2{
+        min-height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(7, 4, 0);
+    }
+    
+    .Menu-2 h1{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    
+    .options-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .options-1 button{
+        margin: 10px;
+        width: 7rem;
+        padding: 10px;
+        background-color: rgb(191, 99, 185);
+        border-radius: 20px;
+        color: rgb(253, 252, 252);
+        border-width: 0px;
+        font-size: 0.65rem;
+    }
+    
+    .options-1 button:hover{
+        background-color: rgb(201, 123, 237);
+        color: rgb(225, 110, 219);
+        border-color: rgb(116, 0, 204);
+        font-weight: 800;
+    }
+    
+    .image-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .image-container p{
+        font-size: 0.25rem;
+    }
+
+    .information-container{
+        padding:0px;
+    }   
+    
+    .social-media-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .bg-image{
+        height: 55vh;
+    }
+    .bg-image h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000;
+    }
+    
+    .bg-image p{
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .bg-image{
+        background-image: url("https://img.freepik.com/free-photo/beauty-face-young-woman-skin-care-concept-closeup-portrait-isolated-white_186202-7129.jpg?w=360");
+        min-height: 80vh;
+        width: 100%;
+        background-size: cover;
+    }   
+    
+    .collection-cont{
+        flex-direction: column;
+    }
+
+    .collection-container h1{
+        text-align: center;
+    }
+
+    .collection-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+.slider{
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    border: solid rgb(235, 199, 243) 10px;
+   }
+   .meddle{
+    margin-top: 57%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.navigation{
+position: absolute;
+bottom: 16px;
+margin-left: 50%;
+transform:translatex(-50%);
+display:flex;
+}
+.bar{ 
+height: 8px;
+width:30px;
+margin:6px;
+cursor: pointer;
+background-color: #d7c1de;
+opacity: .5;
+border-radius: 10px;
+transition: all .5s ease;
+
+}
+.bar:hover{
+opacity: 0.9;
+transform:scale(1.1);
+}
+input[name="r"]{
+position: absolute;
+visibility: hidden;                                                                                                                 
+}
+
+
+
+
+
+
+.slides{
+width: 400%;
+height: 100%;
+display: flex;
+}
+.slide{
+width: 25%;
+transition:all .6s ease;
+
+}
+.slide img{
+width:100%;
+height: 100%;
+}
+#r1:checked ~ .s1{
+margin-left:0;
+}
+#r2:checked ~ .s1{
+margin-left:-25%;
+}
+#r3:checked ~ .s1{
+margin-left:-50%;
+}
+#r4:checked ~ .s1{
+  margin-left:-75% ;
+  }
